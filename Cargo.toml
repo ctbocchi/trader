@@ -1,8 +1,15 @@
-[package]
-name = "trader"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[workspace]
+members = [
+    "trader",
+    "gui",
+    "influxdb",
+    "trading",
+]
 
 [dependencies]
+iced = "0.3.0"
+rand = "0.8.4"
+
+[dependencies.influxdb]
+version = "0.16.0"
+features = ["rust-influxdb"]
