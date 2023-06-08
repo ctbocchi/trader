@@ -1,8 +1,8 @@
-# Project Name
+# Rust Options Trader
 
-A brief description of your project goes here.
+Using Wheel and Montecarlo sim.
 
-## Table of Contents
+## Table of Contents @TODO
 
 - [Installation](#installation)
 - [Usage](#usage)
